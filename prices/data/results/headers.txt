@@ -1,0 +1,4 @@
+Index(['MasVnrArea', 'TotalBsmtSF', '1stFlrSF', 'GrLivArea', 'GarageArea',
+       'OverallQual_8.0', 'OverallQual_9.0', 'FullBath_1.0', 'FullBath_2.0',
+       'GarageCars_3.0'],
+      dtype='object')
