@@ -57,3 +57,19 @@ plt.ylabel('Predicted Sale Price')
 plt.title('Predicted Sale Prices')
 plt.legend()
 plt.savefig('../results/making_predictions/predictions.png')
+
+plt.figure(figsize=(8, 6))
+plt.hist(x=predicted_values_rf)
+title = 'Histogram of Predicted SalePrice - RF'
+plt.title(title, fontsize=16)
+plt.xlabel('Predicted SalePrice', fontsize=14)
+plt.ylabel('Frequency', fontsize=14)
+plt.savefig('../results/making_predictions/predictions_rf.png')
+
+plt.figure(figsize=(8, 6))
+plt.hist(x=predicted_values_gb)
+title = 'Histogram of Predicted SalePrice - GB'
+plt.title(title, fontsize=16)
+plt.xlabel('Predicted SalePrice', fontsize=14)
+plt.ylabel('Frequency', fontsize=14)
+plt.savefig('../results/making_predictions/predictions_gb.png')
